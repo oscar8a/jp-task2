@@ -1,0 +1,66 @@
+Script started on Fri Jan 10 20:43:53 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+bash: parse_git_branch: command not found
+[?1034h]2;flatironschool@Flatirons-Air[[37;44;1m20:43:55[0m][0;31m [0;32mJPMC-tech-task-2-PY3
+[0;34m//[0;31m ♥ [0mpython3 get-pip.py
+/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.7/Resources/Python.app/Contents/MacOS/Python: can't open file 'get-pip.py': [Errno 2] No such file or directory
+bash: parse_git_branch: command not found
+]2;flatironschool@Flatirons-Air[[37;44;1m20:44:22[0m][0;31m [0;32mJPMC-tech-task-2-PY3
+[0;34m//[0;31m ♥ [0mcurl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1734k  100 1734k    0     0  1278k      0  0:00:01  0:00:01 --:--:-- 1278k
+bash: parse_git_branch: command not found
+]2;flatironschool@Flatirons-Air[[37;44;1m20:44:46[0m][0;31m [0;32mJPMC-tech-task-2-PY3
+[0;34m//[0;31m ♥ [0mcurl https://bootstrap.pypa.io/get-pip.py -o get-pip.py[C[C[C[C[Cpython3 get-pip.py[K
+Collecting pip
+  Using cached https://files.pythonhosted.org/packages/00/b6/9cfa56b4081ad13874b0c6f96af8ce16cfbc1cb06bedf8e9164ce5551ec1/pip-19.3.1-py2.py3-none-any.whl
+Installing collected packages: pip
+  Found existing installation: pip 19.3.1
+    Uninstalling pip-19.3.1:
+      Successfully uninstalled pip-19.3.1
+  Rolling back uninstall of pip
+  Moving to /Users/flatironschool/Library/Python/3.7/bin/pip
+   from /private/var/folders/lr/km4l_jd1503bcj6gx2v4fhsc0000gn/T/pip-uninstall-ui3j59x_/pip
+  Moving to /Users/flatironschool/Library/Python/3.7/bin/pip3
+   from /private/var/folders/lr/km4l_jd1503bcj6gx2v4fhsc0000gn/T/pip-uninstall-ui3j59x_/pip3
+  Moving to /Users/flatironschool/Library/Python/3.7/bin/pip3.7
+   from /private/var/folders/lr/km4l_jd1503bcj6gx2v4fhsc0000gn/T/pip-uninstall-ui3j59x_/pip3.7
+  Moving to /Users/flatironschool/Library/Python/3.7/lib/python/site-packages/pip-19.3.1.dist-info/
+   from /Users/flatironschool/Library/Python/3.7/lib/python/site-packages/~ip-19.3.1.dist-info
+  Moving to /Users/flatironschool/Library/Python/3.7/lib/python/site-packages/pip/
+   from /Users/flatironschool/Library/Python/3.7/lib/python/site-packages/~ip
+[31mERROR: Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/Library/Python/3.7'
+Consider using the `--user` option or check the permissions.
+[0m
+bash: parse_git_branch: command not found
+]2;flatironschool@Flatirons-Air[[37;44;1m20:44:56[0m][0;31m [0;32mJPMC-tech-task-2-PY3
+[0;34m//[0;31m ♥ [0mpython3 get-pip.py --user
+Collecting pip
+  Using cached https://files.pythonhosted.org/packages/00/b6/9cfa56b4081ad13874b0c6f96af8ce16cfbc1cb06bedf8e9164ce5551ec1/pip-19.3.1-py2.py3-none-any.whl
+Installing collected packages: pip
+  Found existing installation: pip 19.3.1
+    Uninstalling pip-19.3.1:
+      Successfully uninstalled pip-19.3.1
+[33m  WARNING: The scripts pip, pip3 and pip3.7 are installed in '/Users/flatironschool/Library/Python/3.7/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.[0m
+Successfully installed pip-19.3.1
+bash: parse_git_branch: command not found
+]2;flatironschool@Flatirons-Air[[37;44;1m20:45:13[0m][0;31m [0;32mJPMC-tech-task-2-PY3
+[0;34m//[0;31m ♥ [0mpip3 install python-dateutil
+Traceback (most recent call last):
+  File "/Library/Developer/CommandLineTools/usr/bin/pip3", line 10, in <module>
+    sys.exit(main())
+TypeError: 'module' object is not callable
+bash: parse_git_branch: command not found
+]2;flatironschool@Flatirons-Air[[37;44;1m20:45:36[0m][0;31m [0;32mJPMC-tech-task-2-PY3
+[0;34m//[0;31m ♥ [0mpython3 -m venv env
+bash: parse_git_branch: command not found
+]2;flatironschool@Flatirons-Air[[37;44;1m20:45:58[0m][0;31m [0;32mJPMC-tech-task-2-PY3
+[0;34m//[0;31m ♥ [0msource ./env/bin/activate[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+exit
+
+Script done on Fri Jan 10 20:46:44 2020
